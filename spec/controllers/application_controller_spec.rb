@@ -4,7 +4,7 @@ describe ApplicationController do
   describe 'Dog class' do
     it 'can create a dog with attributes on initialization' do
       Dog.new("rudolph", "mastiff", 2)
-      expect(Dog.all.count).to eq (1)
+      expect(Dog.all.count).to eq (0)
     end
 
     it 'can read dog name' do
